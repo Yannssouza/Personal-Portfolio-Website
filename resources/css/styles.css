@@ -83,18 +83,12 @@ body {
 .skills {
     display: flex;
     flex-direction: column;
-    height: 100px;
     margin: 16px 0;
-}
-
-.skills-container {
-    display: flex;
-    width: 100%;
-    margin: 16px;
 }
 
 footer {
     text-align: center;
+    margin: 8px 0;
 }
 
 @media only screen and (max-width: 600px) {
