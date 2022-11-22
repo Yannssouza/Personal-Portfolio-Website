@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     max-width: 1000px;
+    height: 100%;
     margin: 0 auto;
     background-color: #FFCD5C;
     color: #161616;
