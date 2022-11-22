@@ -14,6 +14,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     max-width: 1000px;
     margin: 0 auto;
     background-color: #FFCD5C;
@@ -54,13 +55,7 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 16px 0;
-}
-
-.presentation {
-    width: 500px;
-    height: 250px;
 }
 
 .presentation p {
@@ -73,6 +68,7 @@ body {
     background-image: url("../img/profile.jpg");
     background-size: cover;
     border-radius: 5px;
+    flex-shrink: 0;
 }
 
 .projects {
@@ -85,12 +81,24 @@ body {
 }
 
 .skills {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
     margin: 16px 0;
 }
 
 .skills-container {
+    display: flex;
+    width: 100%;
+    margin: 16px;
 }
 
 footer {
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me {
+        flex-direction: column;
+    }
 }
