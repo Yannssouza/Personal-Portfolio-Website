@@ -26,7 +26,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 16px 0;
-    height: 48px;
+    height: 32px;
     border-bottom: solid 1px #161616;
 }
 
@@ -84,7 +84,7 @@ body {
     list-style-type: none;
 }
 
-.projects-list-item:hover {
+.projects-list h3:hover {
     color: rgba(0, 0, 0, 0.63);
 }
 
@@ -98,7 +98,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 16px;
+    padding-top: 8px;
     margin: 8px 0;
     border-top: solid 1px #161616;
 }
