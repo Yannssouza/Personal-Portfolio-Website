@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@
 
 html {
     font-size: 18px;
+    font-family: "Roboto", sans-serif ;
 }
 
 body {
@@ -13,6 +16,8 @@ body {
     flex-direction: column;
     max-width: 1000px;
     margin: 0 auto;
+    background-color: #FFCD5C;
+    color: #161616;
 }
 
 .nav {
@@ -38,6 +43,11 @@ body {
 
 .list-item a {
     text-decoration: none;
+    color: black;
+}
+
+.list-item a:hover {
+    color: rgba(0, 0, 0, 0.63);
 }
 
 .about-me {
@@ -68,6 +78,10 @@ body {
 .projects {
     height: 100%;
     margin: 16px 0;
+}
+
+.projects-list {
+    list-style-type: none;
 }
 
 .skills {
