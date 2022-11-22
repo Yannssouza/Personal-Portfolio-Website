@@ -8,7 +8,7 @@
 
 html {
     font-size: 18px;
-    font-family: "Roboto", sans-serif ;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -92,6 +92,12 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    .item1,
+    .item2,
+    .item3 {
+        display: none;
+    }
+
     .about-me {
         flex-direction: column;
     }
