@@ -26,6 +26,8 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 16px 0;
+    height: 48px;
+    border-bottom: solid 1px #161616;
 }
 
 .nav h1 {
@@ -56,6 +58,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 16px 0;
+    align-items: center;
 }
 
 .presentation p {
@@ -81,6 +84,10 @@ body {
     list-style-type: none;
 }
 
+.projects-list-item:hover {
+    color: rgba(0, 0, 0, 0.63);
+}
+
 .skills {
     display: flex;
     flex-direction: column;
@@ -88,8 +95,12 @@ body {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
     margin: 8px 0;
+    border-top: solid 1px #161616;
 }
 
 @media only screen and (max-width: 600px) {
