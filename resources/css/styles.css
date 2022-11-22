@@ -69,6 +69,7 @@ body {
     background-size: cover;
     border-radius: 5px;
     flex-shrink: 0;
+    margin: 16px;
 }
 
 .projects {
@@ -100,5 +101,6 @@ footer {
 
     .about-me {
         flex-direction: column;
+        align-items: center;
     }
 }
