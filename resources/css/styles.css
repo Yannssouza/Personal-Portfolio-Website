@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif ;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFCD5C;
+    color: #161616;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.nav h1 {
+    font-size: 28px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.list-item {
+  margin: 16px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-item a:hover {
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.about-me {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+}
+
+.presentation p {
+    margin: 16px 0;
+}
+
+.photo-card {
+    width: 250px;
+    height: 250px;
+    background-image: url("../img/profile.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.projects {
+    height: 100%;
+    margin: 16px 0;
+}
+
+.projects-list {
+    list-style-type: none;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+}
+
+footer {
+    text-align: center;
+    margin: 8px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-me {
+        flex-direction: column;
+    }
+}
