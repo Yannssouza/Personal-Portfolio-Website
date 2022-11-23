@@ -9,6 +9,7 @@
 html {
     font-size: 18px;
     font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -82,12 +83,17 @@ body {
     margin: 16px 0;
 }
 
-.projects-list {
-    list-style-type: none;
+.project-title h3 {
+    display: inline;
 }
 
-.projects-list h3:hover {
+.project-title h3:hover {
     color: rgba(0, 0, 0, 0.63);
+    cursor: pointer;
+}
+
+.project-image {
+    max-width: 300px;
 }
 
 .skills {
