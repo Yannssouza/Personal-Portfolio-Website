@@ -52,7 +52,7 @@ footer {
 }
 
 main, nav, footer {
-    background: #FFCD5C;
+    background: #ffffff;
     z-index: 1;
     padding: 0 32px;
     border: solid #161616 5px;
