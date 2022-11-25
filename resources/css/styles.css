@@ -156,10 +156,6 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        margin: 0 16px;
-    }
-
     .item1,
     .item2,
     .item3 {
