@@ -157,6 +157,11 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    .photo-card {
+        width: 200px;
+        height: 200px;
+    }
+
     .item1,
     .item2,
     .item3 {
